@@ -3,7 +3,10 @@ package ej2;
 public class Main {
 
 	public static void main(String[] args) {
-		// TODO Auto-generated method stub
+		final Funcion funcion = new Funcion();
+		int tabla[] = {3, 5};
+		
+		System.out.println(funcion.maximo(tabla));
 
 	}
 
