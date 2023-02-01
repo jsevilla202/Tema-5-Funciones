@@ -1,5 +1,7 @@
 package ej3;
 
+import java.util.Arrays;
+
 public class Funcion {
 
 		int[] rellenaPares(int longitud, int fin) {
@@ -11,6 +13,8 @@ public class Funcion {
 					tabla[i]++;
 				}
 			}
+			
+			Arrays.sort(tabla);
 			
 			return tabla;
 
