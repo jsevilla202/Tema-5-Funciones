@@ -10,6 +10,10 @@ public class Funcion {
 				break;
 			}
 		}
+		
+		if(t[0]!=clave&&posicion==0) {
+			posicion = -1;
+		}
 		return posicion;
 	}
 
