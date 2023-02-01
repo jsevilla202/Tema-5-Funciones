@@ -14,6 +14,7 @@ public class Main {
 		
 		System.out.print("¿Cual es número máximo que puede haber en la tabla? ");
 		numero = sc.nextInt();
+		sc.close();
 		
 		System.out.println(Arrays.toString(funcion.eliminarMayores(tabla, numero)));
 
