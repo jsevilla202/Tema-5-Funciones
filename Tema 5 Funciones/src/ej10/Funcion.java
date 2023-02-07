@@ -7,7 +7,7 @@ public class Funcion {
 		int tabla[][] = new int [tablaInicio.length][tablaInicio[0].length];
 		for(int i = 0; i<tabla.length; i++) {
 			for(int j = 0; j<tabla.length; j++) {
-				tabla[tabla.length-i-1][tabla.length-j-1] =tablaInicio[i][j];
+				tabla[j][tabla.length-1-i] =tablaInicio[tabla.length-1-i][j];
 			}
 		}
 		
